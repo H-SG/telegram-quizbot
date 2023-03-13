@@ -1,0 +1,20 @@
+# This file contains the contents of the quiz questions which are asked by the 
+# telegram bot, this is in the format of:
+# ["A quiz question"]
+# options = ["Things", "Which", "Show", "In the custom keybaord", "Secretly correct"]
+# correct = "Secretly correct"
+# Additionally at the start of the file there is the "winner" var which shows the message presented to the winner
+winner = "Good job! Here is a cookie 🍪"
+failed = "(•_•) I guess you made... ( •_•)>⌐■-■ the wrong choices... (⌐■_■)"
+
+["What colour is the sky?"]
+options = ["Blue", "Octarine", "Red", "Greige"]
+correct = "Blue"
+
+["Which of these are not a highly composite number?"]
+options = [60, 72, 360, 720720]
+correct = 72
+
+["In order for a chemical reaction to be thermodynamically favourable, the Gibbs free energy must be:"]
+options = ["Irrelevant", "Negative", "Positive", "Zero"]
+correct = "Negative"
