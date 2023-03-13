@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "telegram-quizbot"
+version = "0.1.0"
+description = "A bot for running quizes on telegram"
+authors = ["Zander Horn <zander@enginerd.co.za>"]
+license = "GPL 3.0"
+readme = "README.md"
+packages = [{include = "telegram_quizbot"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+python-telegram-bot = "^20.1"
+pandas = "^1.5.3"
+
+
+[tool.poetry.group.dev.dependencies]
+mypy = "^1.1.1"
+black = "^23.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
