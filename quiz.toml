@@ -18,3 +18,31 @@ correct = 72
 ["In order for a chemical reaction to be thermodynamically favourable, the Gibbs free energy must be:"]
 options = ["Irrelevant", "Negative", "Positive", "Zero"]
 correct = "Negative"
+
+["What shade of blue is superintelligent?"]
+options = ["SmortBlue™", "Hoovooloo", "Bloo", "Ultramarine"]
+correct = "Hoovooloo"
+
+["Which Star Trek captain hails from France?"]
+options = ["Sisko", "Kirk", "Pike", "Picard"]
+correct = "Hoovooloo"
+
+["Electrons are best described as:"]
+options = ["Particles", "Wave functions", "A duality"]
+correct = "A duality"
+
+["What do priests chant when converting enemy units?"]
+options = ["Mandatum", "Stoma", "Wololo", "Bildembai"]
+correct = "Wololo"
+
+["At the time of destruction, what was the shield modulation of the Enterprise D set to?"]
+options = ["257.4", "48650.1", "Multiadaptive", "Anti-Klingon"]
+correct = "257.4"
+
+["What is the transition frequency between the two hyperfine ground states of caesium under ideal conditions?"]
+options = [9_192_631_769, 9_192_631_770, 9_192_631_771, 9_192_631_772]
+correct = 9_192_631_770
+
+["On what message platform are you doing this quiz?"]
+options = ["WhatsApp", "IRC", "Telegram", "Signal"]
+correct = "Telegram"
