@@ -46,3 +46,20 @@ correct = "9192631770"
 ["On what message platform are you doing this quiz?"]
 options = ["WhatsApp", "IRC", "Telegram", "Signal"]
 correct = "Telegram"
+
+# It seems Tolkien may have changed his mind on this?
+# Interesting stuff: https://en.wikipedia.org/wiki/The_Two_Towers#Title_and_publication
+["What are the names of the two towers refered to in 'The Lord of the Rings: The Two Towers'?"]
+options = ["Orthanc and Minas Morgul", "Minas Tirith and Barad-dûr", "Helm's Deep and Minas Tirith", "Gotham and Metropolis"]
+correct = "Orthanc and Minas Morgul"
+
+# https://en.wikipedia.org/wiki/Deinonychus#Cultural_significance
+["What is the name of the dinosaur from the film Jurassic Park described as a 'clever girl'"]
+options = ["Deinonychus", "T-Rex", "Velociraptor", "Pantydraco"]
+correct = "Deinonychus"
+
+# https://www.imdb.com/title/tt8172158/characters/nm0790688
+["Crowley didn't really fall, he:"]
+options = ["Sauntered vaguely downwards", "Plummeted", "Tripped and recovered", "Soared upwards"]
+correct = "Sauntered vaguely downwards"
+
