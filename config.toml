@@ -1,0 +1,7 @@
+telegram_api_token = "Wouldn't you like to know"
+quiz_retries = 3
+allowlist = []
+denylist = []
+quiz_questions = 10
+win_threshold = 8
+max_question_time_seconds = 20
