@@ -124,7 +124,8 @@ async def quiz_choice(update: Update, context: ContextTypes.DEFAULT_TYPE) -> Opt
                                               'score': None,
                                               'questions': None,
                                               'question_num':None,
-                                              'discount_code':None})
+                                              'discount_code':None,
+                                              'question_time':None})
 
                 await update.effective_message.reply_text("Beaming up your questions...")
                 context.user_data['questions'] = random.sample(list(QUIZ_DICT.keys()), CONFIG_DICT['quiz_questions'])
@@ -157,6 +158,7 @@ async def quiz_question(update: Update, context: ContextTypes.DEFAULT_TYPE) -> O
     query = update.callback_query
     await query.answer()
 
+    # TODO: check how long question took
     previous_question: str = context.user_data['questions'][context.user_data['question_num']]
     true_answer: str = QUIZ_DICT[previous_question]['correct']
 
