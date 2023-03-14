@@ -54,7 +54,7 @@ options = ["Orthanc and Minas Morgul", "Minas Tirith and Barad-dûr", "Helm's De
 correct = "Orthanc and Minas Morgul"
 
 # https://en.wikipedia.org/wiki/Deinonychus#Cultural_significance
-["What is the name of the dinosaur from the film Jurassic Park described as a 'clever girl'"]
+["What is the name of the dinosaur from the film Jurassic Park described as a 'clever girl'?"]
 options = ["Deinonychus", "T-Rex", "Velociraptor", "Pantydraco"]
 correct = "Deinonychus"
 
